@@ -1,0 +1,1 @@
+Experimental MSD values for the bGEM.  Please see the plotting notebook and the github associated with the experiments for more information.

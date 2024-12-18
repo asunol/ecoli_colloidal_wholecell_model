@@ -1,0 +1,71 @@
+tolerance 2.00
+output cell_final_f10_10kT_poly20_40nm.pdb
+filetype pdb
+
+discale 1.02
+
+structure nucleoid_new_f10_10kT.pdb
+  number 1
+  center
+  fixed 0. 0. 0. 0. 0. 0.
+  radius 0.55
+end structure
+
+
+structure GEM.pdb
+  number 32
+  inside sphere 0.0 0.0 0.0 25.5
+  radius 1.4285
+end structure
+
+structure GEM.pdb
+  number 18
+  inside sphere 0.0 0.0 0.0 19.5
+  radius 1.4285
+end structure
+
+
+structure polysome.pdb
+  number 97
+  inside sphere 0.0 0.0 0.0 26.5
+  radius 0.93
+end structure
+
+structure rib.pdb
+  number 2017
+  inside sphere 0.0 0.0 0.0 26.5
+  radius 0.93
+end structure
+
+structure rib.pdb
+  number 331
+  inside sphere 0.0 0.0 0.0 20.0
+  radius 0.93
+end structure
+
+
+structure crowder_negative.pdb
+  number 12916
+  inside sphere 0.0 0.0 0.0 26.9
+  radius 0.5
+end structure
+
+structure crowder_negative.pdb
+  number 7042
+  inside sphere 0.0 0.0 0.0 20.0
+  radius 0.5
+end structure
+
+
+structure crowder_positive.pdb
+  number 3929
+  inside sphere 0.0 0.0 0.0 26.9
+  radius 0.5
+end structure
+
+structure crowder_positive.pdb
+  number 1537
+  inside sphere 0.0 0.0 0.0 20.0
+  radius 0.5
+end structure
+

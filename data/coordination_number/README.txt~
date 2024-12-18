@@ -1,0 +1,6 @@
+Coordination number distribution for each bGEM type with different molecules.
+
+Naming of files is bGEM type followed by  molecule type (DNA molecule, ribosome, positive crowder, or negative crowder).
+
+Each row is a different timestep, and each column is the probability of having that many contacts.
+For instance, in contact
